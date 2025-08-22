@@ -1,0 +1,169 @@
+<html>
+<head>
+<script src="assets/js/plugin.js"></script>
+<script src="assets/js/index.js"></script>
+<script src="assets/js/snowstorm.js"></script>
+<script disable-devtool-auto src="https://cdn.jsdelivr.net/npm/disable-devtool/disable-devtool.min.js"></script>
+<link rel="icon" href="https://vurah.lol" type="image/gif" sizes="16x16">
+<title></title>
+<meta charset="UTF-8">
+<meta property="og:type" content="website">
+<meta property="og:title" content="vurah.lol">
+<meta property="og:description" content="Vurah is so sexy lmao lol">
+<meta property="og:url" content="https://vurah.lol" />
+<meta name="theme-color" content="#2f3136">
+<link href="assets/css/stopcheckingmysourceyouskid.css" rel="stylesheet">
+<script src="assets/js/protect.js"></script>
+<body style="background-image: url('assets/audio-video/video.mp4'); background-size: cover;">
+<body onload="document.body.style.opacity='1'">
+<div class="center">
+<pre> 
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡶⠶⢦⣄⠀⠀⠀⠀⠀⣴⠟⠛⢧⣠⣶⣿⠻⣆⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⠁⡟⠦⠌⠛⠉⠉⠉⢹⠇⢠⣶⣼⣷⣞⢙⣧⣿⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣤⠃⠀⠀⠀⠀⠀⠀⣿⠀⠈⢻⡃⠀⢸⡿⡄⠈⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣼⠁⠀⠀⠀⠀⠀⠀⠀⠘⠷⠖⠛⠛⠛⢿⡗⢋⣴⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠙⠛⢻⡀⢀⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡶⠾⣷⠆⠀⠀⣤⡀⠀⠀⠀⠀⠀⠀⠀⢀⣤⡀⠀⠐⢺⡟⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⢿⡦⠀⠀⠛⠃⠀⠀⢠⢶⣄⠀⠀⠈⠛⠀⠀⠀⣺⠓⠟⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣼⢧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⡿⣖⡀⣀⣀⡀⠀⠈⠉⠉⠀⠀⣀⣀⣀⠀⣲⣯⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠶⡆
+⢻⡈⠻⣦⣀⣀⣀⣀⣀⠀⠀⠀⠁⣴⠟⠉⠁⠀⠉⠛⢦⡀⢀⡴⠛⠉⠁⠈⠙⠻⣄⠀⠁⣀⣠⣤⣤⣤⣤⡤⠖⠋⣸⠇
+⡿⠳⣤⣀⡀⠀⠀⠉⠉⠉⠳⢦⣼⠃⠀⠀⠀⠀⠀⠀⠀⠿⠋⠀⠀⠀⠀⠀⠀⠀⠹⣦⡞⠉⠀⠀⠀⠀⠀⢀⣠⠶⢻⡆
+⠻⣦⣀⠀⠀⠀⡴⠶⢦⡀⠀⠈⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⠀⠀⡴⠚⠳⡄⠈⢉⣀⣠⡾⠁
+⠀⠸⣍⣉⣁⡀⣇⠀⠀⠑⠀⢠⡿⣆⠀⠀⠀  Vurah.lol   ⠀ ⣰⢷⡀⠀⠓⠀⢀⡇⢤⣈⣭⠿⠁⠀
+⠀⠀⠀⠙⠷⠤⠿⠶⠦⠶⠞⠋⠘⢻⣦⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⠃⠈⠻⠦⠴⠖⠻⠶⠶⠛⠁⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⠻⢦⣄⠀⠀⠀⠀⠀⠀⠀⠀⣠⡴⠛⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠛⠶⣄⡀⢀⣤⠶⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                                                        
+    </a>
+<a href="https://vurah.lol/forgotten"><span style="font-weight: bold;text-shadow: 0 0 3px #ffffff00;">  My page </span></a>
+ <a href="https://vurah.lol/hoa"><span style="font-weight: bold;text-shadow: 0 0 5px #ff00ea00;"> Hall off autism (coming soon)</a> 
+ <a href="https://discord.com/users/1261774663684718704"><span style="font-weight: bold;text-shadow: 0 0 5px #ff00ea00;"> Discord </a>
+ <span id="typElement"></span>
+<pre> </pre>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+</pre>
+</div>
+<pre> </pre>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<div>
+<button id="button" style="color:hwb(0 100% 0%); font-family:'Courier New', Courier, monospace; border: none; margin: 0; background-color: #000000; position: absolute; top: 50%;left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); width: 100%; height: 100%;" onclick="playAudio();document.getElementById('button').hidden=true;document.getElementById('site').hidden=false">
+<div class="center">
+<pre>     
+                                        [ Click2Enter ] ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀                           
+</pre>
+</div>
+</button>
+</div>
+<script>
+    document.onkeydown = function(e) {
+    if(event.keyCode == 123) {
+        return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+	alert("Piss off u skid!");
+        return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+        return false;
+    }
+    if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+        return false;
+    }
+    if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+        return false;
+    }
+    }
+    document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    });
+    document.getElementById('site').hidden=true
+    function playAudio() {
+        myAudio = new Audio('assets/audio-video/knives.mp3'); 
+        if (typeof myAudio.loop == 'boolean')
+        {
+            myAudio.loop = true;
+        }
+        else
+        {
+            myAudio.addEventListener('ended', function() {
+                this.currentTime = 0;
+                this.play();
+            }, false);
+        }
+        myAudio.play();
+    }
+  </script>
+<script>
+ 
+ function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+ }
+ 
+ function type() {
+  let strs = [ 
+  <span style="font-weight: bold;text-shadow: 0 0 5px #ffffff90;">
+xd
+  </span>
+ ];
+ 
+ var num = getRandomInt(strs.length);
+ 
+ var typElement = document.getElementById('typElement');
+ 
+ var typewriter = new Typewriter(typElement, {
+  loop: true
+ });
+ 
+ typewriter.typeString(strs[num]).pauseFor(5000).deleteAll().pauseFor(100).callFunction(() => {
+  typewriter.stop();
+  type();
+ }).start();
+ }
+ </script>
+<script>
+ type()
+ </script>
+<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+ 
+ $(document).ready(function(){
+   var string = $.trim($('p').text());
+   string = string.replace(/\(([^)]+)\)/, "<span>$1</span>");
+   $('p').html(string);
+ });
+ 
+ function getRandomInt(max) {
+     return Math.floor(Math.random() * Math.floor(max));
+ }
+ 
+ function type() {
+     let strs = [
+         "Always # 1 .",
+ ];
+ var num = getRandomInt(strs.length);
+ 
+ var typElement = document.getElementById('typElement');
+ 
+ var typewriter = new Typewriter(typElement, {
+     loop: true
+ });
+ 
+ typewriter.typeString(strs[num]).pauseFor(5000).deleteAll().pauseFor(100).callFunction(() => {
+     typewriter.stop();
+     type();
+ }).start();
+ }
+ </script>
+<style>
+ span{
+ font-weight: bold;
+ text-shadow: 0 0 5px #00000000;
+ }
+ </style>
+<script>
+ type()
+ </script>
+</html>
+
+
