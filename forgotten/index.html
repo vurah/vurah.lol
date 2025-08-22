@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
   <head>
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="static/css/styles.css">
     <link rel="stylesheet" href="static/css/Navigation-Clean.css">
 	<script src="https://kit.fontawesome.com/5b5a3c4eb0.js" crossorigin="anonymous"></script>
-    
+
     <style>
       .view-count {
         position: fixed;
@@ -99,6 +99,7 @@
       var _app = function () {
           this.id = 0;
           this.videoElement = null;
+          this.musicVolume = 0.15;
           this.musicVolume = 2;
           this.Texts = [
 		"#1 Master",
@@ -111,7 +112,7 @@
 		"Vurah.lol 2025 ! $ ! $",
           ];
       };
-      
+
       var app = new _app();
     </script>
 
@@ -130,13 +131,13 @@
         <source src="static\images\lmao.mp4" type="video/mp4">
         <script>
           var video = document.getElementById("background");
-          
+
           app.videoElement = video;
           app.videoElement.volume = 0;
         </script>
       </video>
     </div>
-    
+
     <div>
       <nav class="navbar navbar-light navbar-expand-lg navigation-clean">
         <div class="container">
@@ -160,9 +161,6 @@
           <div class="socials">
             <a href="https://discord.com/users/1261774663684718704">
               <i class="fa-brands fa-discord social-item" , style="color:#5865f2;"></i>
-          </div>
-            <a href="https://www.paypal.me/vurah" target="_blank">
-              <i class="fa-brands fa-paypal social-item" style="color:#003087;"></i>
               <div class="bitcoin">
             <a href="https://bc1qkd90m4hp6nvdler4f5v4k5ea97fvnpwtavrl3w">
               <i class="fa-brands fa-bitcoin bitcoin" , style="color:#ffd000;"></i>
@@ -184,15 +182,15 @@
       // British Time Clock Script
       function updateBritishTime() {
           const now = new Date();
-          
+
           // Get British time (GMT/BST)
           const britishTime = new Date(now.toLocaleString("en-US", {timeZone: "Europe/London"}));
-          
+
           // Format time as HH:MM:SS
           const hours = britishTime.getHours().toString().padStart(2, '0');
           const minutes = britishTime.getMinutes().toString().padStart(2, '0');
           const seconds = britishTime.getSeconds().toString().padStart(2, '0');
-          
+
           // Format date
           const options = { 
               weekday: 'short', 
@@ -202,12 +200,12 @@
               timeZone: 'Europe/London'
           };
           const dateStr = britishTime.toLocaleDateString('en-GB', options);
-          
+
           // Update the display
           document.getElementById('british-time').textContent = `${hours}:${minutes}:${seconds}`;
           document.getElementById('british-date').textContent = dateStr;
       }
-      
+
       // Update immediately and then every second
       updateBritishTime();
       setInterval(updateBritishTime, 1000);
@@ -216,10 +214,10 @@
       document.addEventListener('DOMContentLoaded', function() {
           // Initialize the view count
           const initialCount = 28499;
-          
+
           // Get the current view count from localStorage
           let viewCount = localStorage.getItem('viewCount');
-          
+
           // If no view count exists, set it to the initial count
           if (viewCount === null) {
               viewCount = initialCount;
@@ -229,10 +227,10 @@
               viewCount = parseInt(viewCount) + 1;
               localStorage.setItem('viewCount', viewCount);
           }
-          
+
           // Format the view count with comma separation for the GAY SEX
           const formattedViewCount = viewCount.toLocaleString();
-          
+
           // Update the view count display
           const viewCountElement = document.querySelector('.view-count');
           if (viewCountElement) {
