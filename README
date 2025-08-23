@@ -1,0 +1,14 @@
+example json entry
+
+{
+    "1": {
+        "title": "#1",
+        "image_url": "https://image.url",
+        "content": "your html content, newline: <br>"
+    },
+    "2": {
+        "title": "#2",
+        "image_url": "https://image.url",
+        "content": "your html content, newline: <br>"
+    },
+} 

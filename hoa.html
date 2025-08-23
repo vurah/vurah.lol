@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hall of Autism</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="hoa.css">
+</head>
+<body>
+    <div class="overlay">
+        <button class="overlay-button" onclick="overlayStuff()">enter</button>
+    </div>
+    <audio id="hoa-audio" src="song.mp3" autoplay="" style="display:none"></audio>
+    <div class="container">
+        <header class="header">
+            <h1 class="rainbow">Hall of Autism</h1>
+            <p class="subtitle">@ vurah.lol</p>
+        </header>
+        <div id="entries" class="grid-container">
+            <!-- injected dynamically from javascript -->
+        </div>
+    </div>
+    <script src="hoa.js"></script>
+    <script>
+        (function() {
+            const sparkleChars = ['✦', '✧', '✯', '✬', '✫', '*'];
+            const colors = ['#ff0000', '#00ff00', '#0000ff', '#ffff00', '#ff00ff', '#00ffff'];
+            let mouseX = 0;
+            let mouseY = 0;
+            let isMoving = false;
+            let movementTimeout = null;
+            let sparkleInterval = null;
+
+            function createSparkle() {
+                const sparkle = document.createElement('div');
+                sparkle.className = 'sparkle';
+                
+                const offsetX = (Math.random() - 0.5) * 20;
+                const offsetY = (Math.random() - 0.5) * 20;
+                
+                sparkle.style.left = (mouseX + offsetX) + 'px';
+                sparkle.style.top = (mouseY + offsetY) + 'px';
+                sparkle.style.color = colors[Math.floor(Math.random() * colors.length)];
+                sparkle.textContent = sparkleChars[Math.floor(Math.random() * sparkleChars.length)];
+                
+                document.body.appendChild(sparkle);
+                
+                setTimeout(() => {
+                    sparkle.remove();
+                }, 800);
+            }
+
+            function updateMousePosition(e) {
+                mouseX = e.clientX;
+                mouseY = e.clientY;
+                
+                if (!isMoving) {
+                    isMoving = true;
+                    sparkleInterval = setInterval(createSparkle, 50);
+                }
+                
+                if (movementTimeout) {
+                    clearTimeout(movementTimeout);
+                }
+                
+                movementTimeout = setTimeout(() => {
+                    isMoving = false;
+                    if (sparkleInterval) {
+                        clearInterval(sparkleInterval);
+                        sparkleInterval = null;
+                    }
+                }, 100);
+            }
+
+            function stopSparkles() {
+                isMoving = false;
+                if (sparkleInterval) {
+                    clearInterval(sparkleInterval);
+                    sparkleInterval = null;
+                }
+                if (movementTimeout) {
+                    clearTimeout(movementTimeout);
+                    movementTimeout = null;
+                }
+            }
+
+            document.addEventListener('mousemove', updateMousePosition);
+            document.addEventListener('mouseleave', stopSparkles);
+
+            window.addEventListener('beforeunload', () => {
+                document.removeEventListener('mousemove', updateMousePosition);
+                document.removeEventListener('mouseleave', stopSparkles);
+                stopSparkles();
+            });
+        })();
+    </script>
+</body>
+</html>
