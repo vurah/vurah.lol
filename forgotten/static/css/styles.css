@@ -141,13 +141,18 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  min-width: 100%; /* Reduced from 135% to fit viewport */
-  min-height: 100%; /* Reduced from 110% to fit viewport */
-  width: 100%; /* Explicitly match viewport width */
-  height: 100%; /* Explicitly match viewport height */
+  min-width: 135%;
+  min-height: 110%;
+  width: auto;
+  height: auto;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   overflow: hidden;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 /* PROJECT */
@@ -214,7 +219,6 @@ iframe {
 }
 
 video {
-  object-fit: cover;
+  object-fit: contain;
 
 }
-
