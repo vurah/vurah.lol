@@ -18,6 +18,16 @@
     <script src="https://kit.fontawesome.com/5b5a3c4eb0.js" crossorigin="anonymous"></script>
 
     <style>
+#background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* fill screen */
+    z-index: -5;
+}
+
       .view-count {
         position: fixed;
         bottom: 10px;
@@ -120,7 +130,7 @@
         "Send me money!",
         "DM me on discord for a link!",
         "DNI if under 5 figs",
-        "Vurah.lol 2025 ! $ ! $",
+        "vurah.lol 2025 ! $ ! $",
           ];
       };
 
@@ -133,11 +143,10 @@
     </div>
 
     <div class="startthing">
-      <i><a class="next">> Press Me <</a></i>
+      <i><a class="next">> Press me <</a></i>
     </div>
     <div class="background">
-      <div id="pattern"></div>
-      <video id="background" loop="">
+      <video id="background" loop playsinline muted>
         <source src="static\images\lmao.mp4" type="video/mp4">
         <script>
           var video = document.getElementById("background");
@@ -236,7 +245,7 @@
       }
       document.getElementById("testamonguspoop").innerHTML = real_ip;
       document.addEventListener('DOMContentLoaded', function() {
-        fetch('http://lovesense.lol:2095/views')
+        fetch('https://api.lovesense.lol/views')
           .then(response => {
             return response.json();
           })
