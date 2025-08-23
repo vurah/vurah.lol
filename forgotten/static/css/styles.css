@@ -1,3 +1,7 @@
+/* Make the background video darker */
+#background {
+  filter: brightness(0.5);
+}
 .bmain {
   z-index: -2;
   top: 50%;
@@ -128,33 +132,6 @@
   visibility: hidden;
 }
 
-#pattern {
-  width: 100%;
-  height: 100%;
-  background: transparent url("../images/dot.png") repeat 0 0;
-  z-index: -1;
-  opacity: 1;
-}
-
-#background {
-  z-index: -2;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 135%;
-  min-height: 110%;
-  width: auto;
-  height: auto;
-  transform: translateX(-50%) translateY(-50%);
-  background-size: cover;
-  overflow: hidden;
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  -ms-filter: blur(5px);
-  filter: blur(5px);
-}
-
 /* PROJECT */
 
 .TOP {
@@ -218,7 +195,3 @@ iframe {
   display: flex!important;
 }
 
-video {
-  object-fit: contain;
-
-}
