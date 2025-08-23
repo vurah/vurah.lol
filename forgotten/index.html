@@ -147,7 +147,7 @@
     </div>
     <div class="background">
       <video id="background" loop playsinline>
-        <source src="static\images\lmao.mp4" type="video/mp4">
+        <source src="" type="video/mp4">
         <script>
           var video = document.getElementById("background");
 
@@ -210,6 +210,26 @@
     <script src="static/js/typed.js"></script>
     <script src="static/js/ok.js"></script>
     <script>
+      function randomBg() {
+          const videos = [
+          "static/images/1.mp4",
+          "static/images/2.mp4",
+          "static/images/3.mp4",
+          "static/images/4.mp4",
+          "static/images/5.mp4",
+          "static/images/6.mp4",
+          "static/images/7.mp4"
+          ];
+          for (let i = videos.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [videos[i], videos[j]] = [videos[j], videos[i]];
+          }
+          const randomIndex = Math.floor(Math.random() * videos.length);
+          const selectedVideo = videos[randomIndex];
+          document.getElementById('background').src = selectedVideo;
+      }
+      randomBg();
+
       function updateBritishTime() {
           const now = new Date();
           const britishTime = new Date(now.toLocaleString("en-US", {timeZone: "Europe/London"}));
