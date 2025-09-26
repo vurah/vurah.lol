@@ -174,14 +174,17 @@
         <p class="a"><span id="Bruh" class="Paragraph"></span></p>
       </div>
       <iframe height="250px" width="410px" scrolling="no"
-        src="https://lanyard.cnrad.dev/api/1261774663684718704?borderRadius=5px&amp;idleMessage%20%20&amp;bg=a&amp;animated=true&amp;hideDiscrim=false&amp;hideStatus=false&amp;"
+        src="https://lanyard.cnrad.dev/api/1376641425269067908?borderRadius=5px&amp;idleMessage%20%20&amp;bg=a&amp;animated=true&amp;hideDiscrim=false&amp;hideStatus=false&amp;"
         frameborder="0">
       </iframe>
       <div class="socials">
         <span class="external-view-counter" style="position: static; color: white; font-family: 'Roboto Slab', serif; font-size: 15px; opacity: 0.8; display: flex; align-items: center; gap: 7px; padding-right: 50px;">
           <i class="fa fa-eye"></i> <span id="external-views">...</span>
         </span>
-        <a href="https://discord.com/users/1261774663684718704" title="Discord">
+        <a href="https://discord.com/users/1376641425269067908" title="Discord">
+          <i class="fa-brands fa-discord social-item"></i>
+        </a>
+        <a href="https://discord.gg/urah" title="Discord">
           <i class="fa-brands fa-discord social-item"></i>
         </a>
         <a href="https://bc1qkd90m4hp6nvdler4f5v4k5ea97fvnpwtavrl3w" title="Bitcoin">
@@ -190,11 +193,8 @@
         <a href="https://www.paypal.me/vurah" target="_blank" title="PayPal">
           <i class="fa-brands fa-paypal social-item"></i>
         </a>
-        <a href="https://www.roblox.com/users/3940097061/profile" target="_blank" title="Roblox">
+        <a href="https://www.roblox.com/users/511514878/profile" target="_blank" title="Roblox">
           <i class="fa-solid fa-gamepad social-item"></i>
-        </a>
-        <a href="https://www.instagram.com/adddsfdghfhb/" target="_blank" title="Instagram">
-          <i class="fa-brands fa-instagram social-item"></i>
         </a>
       </div>
     </div>
